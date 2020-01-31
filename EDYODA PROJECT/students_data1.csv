@@ -1,0 +1,41 @@
+id_no,students_names ,student_age ,location,expected_money,review,rating,persion1,persion_2,persion_3,persion_4,count_persions,no_of_couples ,couple_age_group,average_age_of_persions
+1,nikhil,21,hyderabad,15000,excelent,5,nikhil.p,pranathi ,ammar,sing,4,1,old couple,45 -70
+2,nithin ,23,hyderabad,18000,average,4,raju,sandya,akhil.p,0,3,1,old couple,45 -90
+3,ramu,20,hyderabad,20000,excelent,5,sanjeeva,rukmini,0,0,2,1,old couple,45 -70
+4,krishna,27,hyderabad,25000,average,4,0,0,,0,0,0,0,0
+5,archana,22,hyderabad,15000,good,3,sudarshan ,0,0,0,1,0,disabled,45 -70
+6,kavya,27,hyderabad,19000,average,4,sampath,rashmi rajan,,0,2,1,old couple,45 -70
+7,somu,20,hyderabad,20000,excelent,5,0,0,0,0,0,0,0,0
+8,akhil,30,hyderabad,21000,excelent,5,avinash ,reshma,saikiran,0,3,1,old copule and disabled,45 -70
+9,souvik,27,hyderabad,23000,good,3,0,0,0,0,0,0,0,0
+10,karan ,25,hyderabad,25000,good,3,veera,vijaya,somu,preyanka,4,2,old couple,45 -70
+11,kamal,34,hyderabad,25000,excelent,5,balu,sneha,0,0,2,1,elder couple,45 -90
+12,srikanth,21,hyderabad,15000,average,4,seema ,prakesh,0,0,2,1,old couple,45 -70
+13,navya,24,hyderabad,18000,average,4,0,0,0,0,0,0,0,0
+14,seema,28,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+15,lakshmi,26,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+16,srinu,24,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+17,praveen,35,hyderabad,17000,good,3,bablu ,sherisha,0,0,2,1,old couple,45 -85
+18,naveen,30,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+19,rammohan,24,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+20,lalith,34,hyderabad,25000,excelent,5,ramesh,stephen,jafer,patakar,4,0,old,45 -70
+21,rakesh,32,hyderabad,25000,excelent,5,rakesh,nagesh,ratna,0,3,0,old,45 -70
+22,vamshi,28,hyderabad,18000,good,3,0,0,0,0,0,0,0,0
+23,akshay,24,hyderabad,18000,good,3,0,0,0,0,0,0,0,0
+24,avinash,34,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+25,sai raj,35,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+26,malikarjun,22,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+27,arjun,22,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+28,saikiran,32,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+29,kaushik,21,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+30,preeneth,20,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+31,veeneth,30,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+32,kishore,34,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+33,ravi,26,hyderabad,15000,good,3,0,0,0,0,0,0,0,0
+34,vaibhav,20,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+35,pranitha,35,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+36,pranathi,25,hyderabad,25000,excelent,5,0,0,0,0,0,0,0,0
+37,kishan,26,hyderabad,20000,average,4,0,0,0,0,0,0,0,0
+38,sindhu,30,hyderabad,25000,excelent,5,prabavathi,kalavathi,swathi,shalini,4,0,old,45 -70
+39,sahithi,26,hyderabad,20000,average,4,ashok,vennala,0,0,2,1,old couple,45 -70
+40,shanthi,30,hyderabad,20000,average,4,0,0,0,0,0,0,0,0

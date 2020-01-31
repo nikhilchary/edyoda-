@@ -1,0 +1,54 @@
+class edyoda(object):
+    def __init__(self,run_program):
+        self.run_program=run_program
+        
+        
+    def getrun_program(self):
+        import pandas as pd
+        students=pd.read_csv("students_data1.csv")
+        students.set_index("id_no",inplace=True)
+    
+        while True:
+            print('enter A to display students taking care of old couple')
+            print('enter B Showing who all a young chap is currently taking care of')
+            print('enter D to display only students you can select who are taking care of less than 4 persions')
+            print('enter E to display a perticular id student  ')
+            print('enter F to display students on selected rating ')
+            print('enter X to exit ')
+            
+            c=input("enter your choice:")
+            
+            if c == "b" or c=="B":
+                print(students)
+                print('\n')
+            elif c =="e" or c=="E":
+                i1=int(input("select student id"))
+                d1=students.loc[i1,:]
+                df=pd.DataFrame(d1)
+                print(df)
+                print('\n')
+            elif c=="f" or c=="F":
+                d2=int(input("select a rating:"))
+                d3=students[students["rating"]==d2]
+                print(d3)
+                d4=d3.count().rating
+                print("\n")
+                print('They are %2d students'%(d4))
+                print('\n')
+            elif c=="a" or c=="A":
+                std=students[students['couple_age_group'].str.contains('old couple')]
+                print(std)
+                stdc=std.count().rating
+                print('There are %2d old couples'%(stdc))
+                print('\n')
+            elif c=="D" or c=="d":
+                print(students[students['count_persions']<4])
+                print('\n')
+                
+            elif c=="X" or c=='x':
+                break
+            else:
+                print('\n')
+                print('out of option')
+                print('choose the option given')
+                print("\n")
